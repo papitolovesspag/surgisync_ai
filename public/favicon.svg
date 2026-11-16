@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="surgiGrad" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="16" y1="32" x2="48" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Shield / Frame -->
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#0f172a" />
+  <rect x="4" y="4" width="56" height="56" rx="16" stroke="url(#surgiGrad)" stroke-width="2" stroke-opacity="0.6" />
+
+  <!-- Surgical Precision Cross Reticles -->
+  <circle cx="32" cy="32" r="18" stroke="url(#surgiGrad)" stroke-width="2.5" stroke-dasharray="3 3" opacity="0.4" />
+  
+  <!-- Interlocking Sync Arcs -->
+  <path d="M 32 14 A 18 18 0 0 1 50 32" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 32 50 A 18 18 0 0 1 14 32" stroke="#14b8a6" stroke-width="3.5" stroke-linecap="round" />
+  
+  <!-- Central Pulse Sync Wave -->
+  <path d="M 20 32 H 26 L 29 23 L 35 41 L 38 32 H 44" stroke="url(#pulseGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+  
+  <!-- Precision Target Nodes -->
+  <circle cx="32" cy="14" r="2.5" fill="#38bdf8" />
+  <circle cx="32" cy="50" r="2.5" fill="#14b8a6" />
+</svg>
