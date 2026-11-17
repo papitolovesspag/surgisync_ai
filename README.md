@@ -40,7 +40,7 @@ SurgiSync bridges the high-stakes gap between the Operating Room (OR) and the St
 
 - **Founder & CEO:** Henry
 - **Official Contact Email:** [henry@surgisync.site](mailto:henry@surgisync.site)
-- **Direct Phone:** [+234 807 781 0229](tel:+2348077810229)
+- **Direct Phone:** [+234 806 320 4035](tel:+2348063204035)
 
 ---
 

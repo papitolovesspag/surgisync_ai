@@ -111,10 +111,10 @@ export default function ContactUs() {
                 <div>
                   <div className="text-[11px] font-mono text-slate-400 uppercase tracking-wide">Direct Business Phone</div>
                   <a 
-                    href="tel:+2348077810229" 
+                    href="tel:+2348063204035" 
                     className="text-base font-semibold text-white hover:text-sky-400 transition-colors block mt-0.5"
                   >
-                    +234 807 781 0229
+                    +234 806 320 4035
                   </a>
                   <div className="text-[10px] text-teal-400 font-mono mt-1">Executive Line</div>
                 </div>
